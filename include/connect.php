@@ -1,7 +1,11 @@
 <?php
     require_once 'credentials.php';
+    require_once 'Database.php';
     require_once 'constants.php';
     require_once 'functions.php';
 
-    // here goes the code to conenct to db 
+    // Create new connection object
+    $db = new Database();
+   
+    
 ?>

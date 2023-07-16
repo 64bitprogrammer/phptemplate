@@ -9,11 +9,15 @@
     if(!isset($addOnJSLinks)){
         $addOnJSLinks = "";
     }
+    if(!isset($page_title))
+    {
+        $page_title = "App";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Template</title>
+  <title><?=$page_title?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
